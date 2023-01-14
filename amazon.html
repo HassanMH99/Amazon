@@ -1,14 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="strong.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="strong.css" />
+    <link rel="stylesheet" href="header.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <script>
+       function myFunction(smallImg){
+        var fullimg = document.getElementById("imageBox");
+        fullimg.src = smallImg.src;
+       } 
+    </script>
+
     <title>Amazon</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+   
+    <header >
+        <div class="first">
+          <div class="flex logo">
+              <a href="#"><img src="https://pnggrid.com/wp-content/uploads/2021/05/Amazon-Logo-Transparent-1024x310.png" alt="" /></a>
+              <div class="map flex">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <span>Deliver to</span>
+                    <span>Israel</span>
+                </div>
+              </div>
+          </div>
+        
+        <div class="flex input">
+            <div>
+                <span>ALL</span>
+                <i class="fas fa-sort-down"></i>
+            </div>
+                <input type="text">
+                <i class="fas fa-search"></i>
+        </div>
+
+        <div class="flex right">
+            <div class="flex lang">
+                <img src="../images/americanflag.png" alt="">
+                <i class="fas fa-sort-down"></i>
+            </div>
+        
+        <div class="sign">
+            <span>Hello, Sign in</span>
+            <div class="flex ac">
+                <span>Account & Lists</span>
+                <i class="fas fa-sort-down"></i>
+
+            </div>
+        </div>
+        <div class="sign">
+            <span>Returns</span>
+            <span>&Orders</span>
+        </div>
+        <div class="flex cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="ca">Cart</span>
+            <p>0</p>
+        </div>
+    </div>
+</div>
+    </header>
+    <header class="second">
+        <div class="left-header">
+            <div class="menu-bar"><i class="fa fa-bars"></i><span>All</span></div>
+            <span>Today's Deals</span>
+            <span>Customer Service</span>
+            <span>Gift Cards</span>
+            <span>Registry</span>
+            <span>Sell</span>
+        </div>
+        <div class="right-header">
+            <span>Shop Deals in Electronics</span>
+        </div>
+    </header>
+    <header class="third">
+        <img src="../images/header3.jpg" alt="">
+        <span>Renoj Resistance Bands,Exercise Workout Bands for Women and Men,5 Set of Stretch Bands for Booty Legs,Pilates Flexbands</span>
+        <div class="stars">
+            <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+            <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+            <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+            <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+            <img src="https://m.media-amazon.com/images/G/01/perc/star-halffill.svg" alt="">
+            <span>19,316</span>
+        </div>
+        <div class="money-header">
+            <span class="small-money">$</span>
+            <span class="big-money">12</span>
+            <span class="small-money">90</span>
+        </div>
+
+    </header>
+    <section class="image-change">
+        <div class="small-product">
+            <img src="../images/img1-1.jpg" onclick="myFunction(this)" alt="">
+            <img src="../images/img2.jpg" onclick="myFunction(this)" alt="">
+            <img src="../images/img3.jpg" onclick="myFunction(this)" alt="">
+            <img src="../images/img4.jpg" onclick="myFunction(this)" alt="">
+            <img src="../images/img5.jpg" onclick="myFunction(this)" alt="">
+            <img src="../images/img6.jpg" onclick="myFunction(this)" alt="">
+            <img src="../images/img7.jpg" onclick="myFunction(this)" alt="">
+        </div>
+        <div class="big-product">
+            <img id="imageBox" src="../images/img1.jpg" alt="">
+        </div>
+        <div class="description-image">
+            <span>Yes4All 1-sec Adjustable Dumbbell Sets <br> 25/55LBS with Anti-Slip Metal Handle,<br> Selectorized with Fast Adjust Weight by<br> Turning Handle for Strength Training, Full <br>Body Workout, and Muscle Building</span>
+            <a href="#">Visit the Yes4All Store</a>
+            <div class="stars_rating">
+                <div class="stars">
+                    <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+                    <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+                    <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+                    <img src="https://m.media-amazon.com/images/G/01/perc/star-fullfill.svg" alt="">
+                    <img src="https://m.media-amazon.com/images/G/01/perc/star-halffill.svg" alt="">
+                    <i style="color: gray; text-align: center;padding-left:5px ;" class="fas fa-sort-down"></i>
+                    </div>
+                    <span>732 ratings</span>
+                    <span style="color:black"> | </span>
+                    <span> 85 answerd questions</span>
+                    
+                
+            </div>
+           
+            <hr class="line"></hr>
+            <h3>Deal</h3>
+            <div class="discount">
+                <h4>-24%</h4>
+                <div class="money-main">
+                    <span class="small-money">$</span>
+                    <span class="big-money">252</span>
+                    <span  class="small-money">15</span>
+                </div>
+            </div>
+            <div class="list-price">
+                <span>List Price:</span>
+                <span >$329.99</span>
+                <img src="../images/svgexport-1.svg" alt="">
+            </div>
+            <span class="shipping" id="shipping">$132.70 Shipping & Import Fees Deposit to Israel <a href="#">Details</a>  </span>
+            <hr class="line"></hr>
+        
+        </div>
+    </section>
+  </body>
 </html>

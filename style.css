@@ -1,0 +1,128 @@
+/* Section images */
+.image-change{
+    display: flex;
+    padding-left: 5%;
+    position: sticky;
+    padding-top: 2%;
+    gap: 1%;
+}
+.small-product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.small-product>img{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    cursor: pointer;
+}
+.small-product>img:hover{
+    opacity: 0.6;
+}
+.big-product{
+    display: flex;
+    padding-left: 5px;
+    height: 613px;
+    width: 613px;
+}
+.description-image{
+    display: flex;
+    flex-direction: column;
+}
+.description-image>span{
+    font-size: 24px;
+    font-weight: 400;
+}
+.description-image>a{
+    list-style: none;
+   color: #007185;
+   font-size: 14px;
+   font-weight: 400;
+
+}
+.description-image>a:hover,.stars_rating>span:hover{
+    text-decoration: underline;
+    color: #c7511f;
+    cursor: pointer;
+   
+}
+.stars{
+    display: flex;
+    flex-direction: row;    
+}
+.stars_rating>span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #007185;
+}
+.stars_rating{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.line{
+    
+color: gray;
+}
+.description-image>h3{
+    padding-top: 15px;
+    color:#cc0c39;
+    font-size: 14px;
+    font-weight: 700;
+}
+.discount{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.discount>h4{
+    padding-top: 15px;
+    color:#cc0c39;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+.money-main{
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    
+}
+.list-price{
+    display: flex;
+    flex-direction:row ;
+    gap: 3px;
+
+}
+.list-price>img{
+    width: 15px;
+    height: 15px;
+}
+.list-price>span{
+    color: #565959;
+    font-size: 14px;
+   
+    
+}
+.shipping#shipping{
+    color: #565959;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.shipping>a{
+    color: #007185;
+    font-size: 14px;
+
+}
+.shipping>:hover{
+    color:#cc0c39;
+    text-decoration: underline;
+    
+
+}

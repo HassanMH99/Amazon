@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+   
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #eaeded;
+    
+}
+.small-money{
+    font-size: 13px;
+    padding-bottom: 5px;
+    color: grey;
+}
+.big-money{
+    font-size: 28px;
+}
