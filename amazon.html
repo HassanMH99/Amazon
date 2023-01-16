@@ -15,7 +15,8 @@
     />
     <script>
        function myFunction(smallImg){
-        var fullimg = document.getElementById("imageBox");
+        var fullimg="./images/img1-1.jpg"
+         fullimg = document.getElementById("imageBox");
         fullimg.src = smallImg.src;
        } 
     </script>
@@ -106,13 +107,13 @@
     <section class="image-change">
         <div class="image-sitcky">
             <div class="small-product">
-                <img src="./images/img1-1.jpg" onclick="myFunction(this)" alt="">
-                <img src="./images/img2.jpg" onclick="myFunction(this)" alt="">
-                <img src="./images/img3.jpg" onclick="myFunction(this)" alt="">
-                <img src="./images/img4.jpg" onclick="myFunction(this)" alt="">
-                <img src="./images/img5.jpg" onclick="myFunction(this)" alt="">
-                <img src="./images/img6.jpg" onclick="myFunction(this)" alt="">
-                <img src="./images/img7.jpg" onclick="myFunction(this)" alt="">
+                <img src="./images/img1-1.jpg" onmouseover="myFunction(this)" alt="">
+                <img src="./images/img2.jpg" onmouseover="myFunction(this)" alt="">
+                <img src="./images/img3.jpg" onmouseover="myFunction(this)" alt="">
+                <img src="./images/img4.jpg" onmouseover="myFunction(this)" alt="">
+                <img src="./images/img5.jpg" onmouseover="myFunction(this)" alt="">
+                <img src="./images/img6.jpg" onmouseover="myFunction(this)" alt="">
+                <img src="./images/img7.jpg" onmouseover="myFunction(this)" alt="">
             </div>
             <div class="big-product">
                 <img id="imageBox" src="./images/img1.jpg" alt="">
